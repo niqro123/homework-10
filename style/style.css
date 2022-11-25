@@ -3,7 +3,7 @@
 
 nav{width: 100%;}
 .flex li a{color:#000000;padding: 5px 10px;}
-body{background-image: url(../img/Rectangle\ 1.png);background-repeat: no-repeat;}
+body{background-image: url(../img/Rectangle\ 1.png);background-repeat: no-repeat;width: 100%;}
 .li1{width: 227px;height: 70px;background-color: #C4C4C4;border-radius: 0 35px 0 35px;padding: 20px;margin-left:  500px;}
 nav ul li:hover{background-color: #79B331;}
 .li2{width: 125px;height: 70px;background-color: #C4C4C4;border-radius: 0 35px 0 35px;padding: 20px;margin-left: 100px;}
@@ -52,3 +52,33 @@ nav ul li:hover{background-color: #79B331;}
  .div20{margin-left: 1150px;margin-top: -400px;}
  .div20 p:hover{border-bottom: solid 2px  #000000;}
  
+
+ @media only screen and (max-width: 1024px) {
+    body {background-image: url(../img/Rectangle\ 1.png);
+      background-size: 500px;
+      
+    }
+   
+    .li1{margin-left: -10px;width: 150px;height: 50px;font-size: 10px;padding: 10px;padding-top: 20px;}
+    .li2{margin-left: 10px;width: 100px;height: 50px;font-size: 10px;padding: 10px;padding-top: 20px;}
+    .li3{margin-left: 10px;width: 100px;height: 50px;font-size: 10px;padding: 10px;padding-top: 20px;padding-left: 20px;}
+    .div{margin-left: 100px;margin-top: 20px;}
+    .div p{font-size: 10px;}
+    .div1{width: 20px;height: 20px;}
+    .div2{width: 20px;height: 20px;margin-left: 230px;}
+    .div3{width: 20px;height: 20px;}
+    .div4{width: 20px;height: 20px;margin-left: 230px;}
+    .mtavari{margin-left: 1px;}
+    .mtavari p{font-size: 5px;}
+    .div5{width: 50px;height: 50px;border-radius: 0 20px 0 20px;margin-left: 250px;}
+    .xazi{margin-left: 299px;}
+    .div6{width: 50px;height: 50px;border-radius: 0 20px 0 20px;margin-left: 250px;margin-top: -400px;}
+    .div7{width: 50px;height: 50px;border-radius: 0 20px 0 20px;margin-left: 250px;margin-top: 30px;transform: rotate(0);}
+    .p3{margin-left: 100px;margin-top: -150px;}
+    .p4{margin-left: 80px;margin-top: -90px;}
+    .div8{width: 50px;height: 50px;border-radius: 0 20px 0 20px;margin-left: 250px;margin-top: 50px;transform: rotate(0);}
+   .p5{margin-top: 170px;margin-left: 100px;}
+    
+
+    header{width: 100%;}
+  }
